@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import { duration } from "@mui/material";
 export default function Review() {
   return (
-    <div className="reviewbg h-[110vh] w-screen py-20">
+    <div className="reviewbg w-screen py-20">
       <div className=" text-center flex items-center justify-center">
         <div className="flex items-center flex-col w-[90%] ">
           <div>
