@@ -8,7 +8,7 @@ import Curve_down from ".././images/Vectord.png";
 function Career() {
   return (
     <>
-      <div className="career laptop:h-[120vh] desktop-lg:h-[130vh] careerbg pb-[2vh] laptop:block mobile-sm:hidden">
+      <div className="career laptop: desktop-lg: careerbg  laptop:block mobile-sm:hidden">
         <div className="career_heading ">
           <h2 className="text-para fontbold text-fblue p-[10vh] text-center">
             Lanch Your Career
@@ -200,7 +200,7 @@ function Career() {
 
 
       {/* mobile view */}
-      <div className="mobile_career bg-black h-[100%] pb-[5vh] laptop:hidden">
+      <div className="mobile_career bg-black  pb-[5vh] laptop:hidden">
         <div className="career_heading ">
           <h2 className="text-icon font-spaceage text-fblue text-center pt-3">
             lanch your Career
@@ -212,7 +212,7 @@ function Career() {
               <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
               <div className="div flex flex-col m-auto">
                 <h2 className="text-center mt-10  ">
-                  Attend all the classes <br />
+                  Attend all the classes <br/>
                   and workshops
                 </h2>
                 <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[255px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
@@ -229,7 +229,7 @@ function Career() {
               className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
             />
           </div>
-          <div className="step_1 text-white h-[400px]">
+          <div className="step_1 text-white">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
               <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
               <div className="div flex flex-col m-auto">

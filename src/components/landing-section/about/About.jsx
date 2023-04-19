@@ -27,7 +27,7 @@ function About() {
   //   }, [currentState]);
 
   return (
-    <div className="aboutbg h-[112%] pb-[2vh] text-white ">
+    <div className="aboutbg  py-20 text-white relative">
       <div className="about_content  flex justify-around items-center laptop:flex-row-reverse mobile-sm:flex-col desktop-lg:pt-[1%] desktop:flex-row-reverse  laptop:pt-[5%] mobile-sm:px-3 ">
         <div className="description mobile-sm:order-last laptop:order-first  ">
           <motion.h1 className="laptop:text-heading pb-[10vh] fontbold text-fblue laptop:text-justify mobile-sm:text-center">
@@ -35,7 +35,7 @@ function About() {
           </motion.h1>
 
           <motion.p
-            className="mobile-sm:w-[90vw]  laptop-lg:w-[90vh] laptop:text-paragraph text-justify laptop:w-[50vw]"
+            className="mobile-sm:w-[90vw] laptop-lg:w-[90vh] laptop:text-paragraph text-justify laptop:w-[50vw]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 5 }}
@@ -55,30 +55,36 @@ function About() {
             <button className="ab_btn">View More</button>
           </div>
         </div>
+        <div>
+          <div className="   image_content  laptop:mt-[15vh] rotate-180">
+            <motion.img
+              src={imageSlide[currentState].url}
+              alt=""
+              className="   mobile-sm:pt-10 mobile-sm:mt-5 laptop-lg:w-[50vh]  mobile-sm:w-[20vh] laptop:w-[50vh] "
+              initial={{ opacity: 0 }}
+              animate={{
+                opacity: 0.5,
 
-        <div className="image_content  laptop:mt-[15vh] rotate-180">
-          <motion.img
-            src={imageSlide[currentState].url}
-            alt=""
-            className="laptop-lg:w-[50vh]  mobile-sm:w-[20vh] laptop:w-[50vh] "
-            initial={{ opacity: 0 }}
-            animate={{
-              opacity: 0.5,
+                transition: {
+                  type: "spring",
+                  duration: 6,
+                  bounce: 0.1,
+                  repeat: Infinity,
+                  repeatDelay: 2,
+                },
+              }}
+              whileHover={{ opacity: 1 }}
+            />
+          </div>
 
-              transition: {
-                type: "spring",
-                duration: 6,
-                bounce: 0.1,
-                repeat: Infinity,
-                repeatDelay: 2,
-              },
-            }}
-            whileHover={{ opacity: 1 }}
-          />
+          <div className="mobile-sm:absolute mobile-sm:top-[21vh]  mobile-lg:flex mobile-lg:pl-[7vw]  tablet:pl-10 mobile-sm:pl-[10vw]   laptop:absolute laptop:top-[18vh] laptop:pl-20 desktop:pt-[25vh] desktop:pl-[8vw] ">
+            <img
+              src={rocket}
+              className=" laptop:w-[100%] mobile-sm:w-[30%] "
+            ></img>
+          </div>
         </div>
-        <div className="absolute left-40 pl-10 pt-4 ">
-          <img src={rocket} className="w-[100%]"></img>
-        </div>
+
         {/* <div className="m-auto w-[21vh] h-[9vh] p-1 sponsor rounded-lg"><img src={Lmes} alt=""  className="pt-2"/></div> */}
       </div>
       {/* <Swiper

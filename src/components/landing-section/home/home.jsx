@@ -56,7 +56,7 @@ function Home() {
 
           <motion.div className="pl-[20vw] pt-[10vh]">   
             <div className="img">
-              <img src={spaceman} className="w-[100%] h-[100%]"></img>
+              <img src={spaceman} className="  mobile-lg:w-[80%]  laptop:w-[80%]   laptop-lg:w-[100%] h-[100%] "></img>
             </div>
           </motion.div>
         </motion.div>
