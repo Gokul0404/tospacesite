@@ -8,17 +8,21 @@ import Curve_down from ".././images/Vectord.png";
 function Career() {
   return (
     <>
-      <div className="career laptop:h-[140vh] desktop-lg:h-[130vh] bg-[#000000] pb-[2vh] laptop:block mobile-sm:hidden">
+      <div className="career laptop:h-[120vh] desktop-lg:h-[130vh] careerbg pb-[2vh] laptop:block mobile-sm:hidden">
         <div className="career_heading ">
-          <h2 className="text-para font-spaceage text-[#9747FF] p-[10vh] text-center">
-            lanch your Career
+          <h2 className="text-para fontbold text-fblue p-[10vh] text-center">
+            Lanch Your Career
           </h2>
         </div>
-        <div className="w-screen flex h-[80vh] p-5 text-white items-center flex-col gap-y-[10vh]">
+
+        <div className="w-screen flex h-[80vh] px-5 text-white items-center flex-col gap-y-[10vh]">
+
+
+
           <div className="flex items-center ">
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -26,10 +30,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -37,7 +38,7 @@ function Career() {
             <img src={Arrow} alt="" className="self-start w-[150px] pt-4" />
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -45,10 +46,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -56,7 +54,7 @@ function Career() {
             <img src={Arrow} alt="" className="self-start w-[150px] pt-4" />
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -64,10 +62,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -75,7 +70,7 @@ function Career() {
             <img src={Arrow} alt="" className="self-start w-[150px] pt-4" />
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -83,10 +78,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -101,16 +93,22 @@ function Career() {
             </div>
           </div>
           {/* mid */}
-          <div className=" self-end 4k:mx-[20vw] laptop-lg:mx-[0.2vw] desktop-lg-4k:mx-[10vw]">
+
+
+          {/* <div className=" self-end 4k:mx-[20vw] laptop-lg:mx-[0.2vw] desktop-lg-4k:mx-[10vw]">
             <div className="">
               <img src={Arrow_down} alt="" className=" w-[10px] " />
             </div>
-          </div>
+          </div> */}
+
+
+
+
           {/* end */}
-          <div className="flex items-center ">
+          <div className="flex items-center pt-20">
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -118,10 +116,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -133,7 +128,7 @@ function Career() {
             />
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -141,10 +136,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -156,7 +148,7 @@ function Career() {
             />
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -164,10 +156,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -179,7 +168,7 @@ function Career() {
             />
             <div className="w-[250px] h-[100px] ">
               <div className="flex items-center flex-col">
-                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] p-5"></div>
+                <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] p-5"></div>
                 <div className="text-white ">
                   <h1 className="text-center p-2 text-[12px]">
                     {" "}
@@ -187,10 +176,7 @@ function Career() {
                   </h1>
                   <h1 className="text-white text-justify h-[200px] overflow-y-scroll text-[15px]">
                     ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
+                    experience in building a CubeSat.
                   </h1>
                 </div>
               </div>
@@ -206,169 +192,188 @@ function Career() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
       {/* mobile view */}
       <div className="mobile_career bg-black h-[100%] pb-[5vh] laptop:hidden">
         <div className="career_heading ">
-          <h2 className="text-icon font-spaceage text-[#9747FF] text-center pt-3">
+          <h2 className="text-icon font-spaceage text-fblue text-center pt-3">
             lanch your Career
           </h2>
         </div>
         <div className="all_steps flex flex-col p-2 gap-y-[1vh]">
-        <div className="step_1 text-white h-[400px]">
+          <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[255px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[255px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="arrow_down h-[0vh]">
-          <img src={Arrow_down} alt="" className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] " />
+            <img
+              src={Arrow_down}
+              alt=""
+              className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
+            />
           </div>
           <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="arrow_down h-[0vh]">
-          <img src={Arrow_down} alt="" className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] " />
+            <img
+              src={Arrow_down}
+              alt=""
+              className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
+            />
           </div>
           <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="arrow_down h-[0vh]">
-          <img src={Arrow_down} alt="" className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] " />
+            <img
+              src={Arrow_down}
+              alt=""
+              className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
+            />
           </div>
           <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="arrow_down h-[0vh]">
-          <img src={Arrow_down} alt="" className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] " />
+            <img
+              src={Arrow_down}
+              alt=""
+              className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
+            />
           </div>
           <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="arrow_down h-[0vh]">
-          <img src={Arrow_down} alt="" className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] " />
+            <img
+              src={Arrow_down}
+              alt=""
+              className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
+            />
           </div>
           <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="arrow_down h-[0vh]">
-          <img src={Arrow_down} alt="" className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] " />
+            <img
+              src={Arrow_down}
+              alt=""
+              className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
+            />
           </div>
           <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="arrow_down h-[0vh]">
-          <img src={Arrow_down} alt="" className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] " />
+            <img
+              src={Arrow_down}
+              alt=""
+              className=" w-[20px]  absolute mx-[5vw]  mt-[-25vh] "
+            />
           </div>
           <div className="step_1 text-white h-[400px]">
             <div className="flex items-center mobile-sm:mx-[4vh] mobile-md:mx-[2vh] tablet:mx-[5vh]">
-            <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#9747FF] to-[#27252838] "></div>
-            <div className="div flex flex-col m-auto">
-              <h2 className="text-center mt-10  ">
-              Attend all the classes <br/>and workshops
-              </h2>
-              <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
-                    ToSpace's programme is designed to give students hands-on
-                    experience in building a CubeSat. To get the most out of the
-                    programme, students should attend all the classes and
-                    workshops, and ask questions when they don't understand
-                    something.
-                  </h1>
-            </div>
+              <div className="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-fblue to-[#27252838] "></div>
+              <div className="div flex flex-col m-auto">
+                <h2 className="text-center mt-10  ">
+                  Attend all the classes <br />
+                  and workshops
+                </h2>
+                <h1 className="text-justify  overflow-y-auto h-[300px]  mobile-sm:w-[220px] mobile-md:w-[270px] mobile-lg:w-[300px] tablet:w-[500px] text-[15px]  p-5 ">
+                  ToSpace's programme is designed to give students hands-on
+                  experience in building a CubeSat. To get the most out of done.
+                </h1>
+              </div>
             </div>
           </div>
         </div>
