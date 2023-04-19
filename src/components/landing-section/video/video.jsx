@@ -4,7 +4,7 @@ import '../about/about.css'
 function Video() {
   return (
     <>
-      <div className="video_part_section videobg h-[190%]  text-white ">
+      <div className="video_part_section videobg  text-white ">
         <div className="video-side  ">
           <div className="vide0_session grid grid-cols-2 gap-4 w-[100%] py-10">
             <div className="content-side  laptop:mx-[20vh] videobg z-10 laptop:p-5 w-[85%] text-justify">
@@ -62,7 +62,7 @@ function Video() {
           </div>
         </div>
 
-        <div className="card_part   mobile-sm:pt-[70vh]   mobile-sm:h-[100%] mobile-sm:pb-[2vh] videobg laptop:pt-[10vh]">
+        <div className="card_part   mobile-sm:pt-[70vh]   mobile-sm:h-[100%] mobile-sm:pb-[2vh] videobg laptop:py-[10vh]">
           <div className="grid laptop:grid-cols-3 gap-10  mt-10 mobile-sm:grid-rows-1">
             <div>
               <div class="w-[60%]  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
