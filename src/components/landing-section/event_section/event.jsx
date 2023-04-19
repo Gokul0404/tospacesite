@@ -462,7 +462,7 @@ function Event() {
 
             {/* content */}
 
-            <div className="event_main_content  laptop-lg:w-[27vw] laptop: w-[77vh]  laptop:overflow-y-scroll laptop:mt-12">
+            <div className="event_main_content   laptop:w-[35vw]  laptop:overflow-y-scroll laptop:mt-12">
               <Swiper
                 pagination={{
                   clickable: true,
