@@ -58,6 +58,13 @@ body {
   height: 100vh;
 }
 
+
+
+.course_bg_img{
+  background-image:url('../src/components/course/images/course.png') ;
+    background-size: cover;
+}
+
 .view {
   background: linear-gradient(
     99.28deg,

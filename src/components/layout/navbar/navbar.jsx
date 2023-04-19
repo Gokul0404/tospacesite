@@ -47,7 +47,7 @@ function Navbar() {
           <Link to="about">
             <motion.a className="hover:cursor-pointer">About</motion.a>
           </Link>
-          <Link>
+          <Link to="course">
             <motion.a className="hover:cursor-pointer">Courses</motion.a>
           </Link>
           <motion.a
