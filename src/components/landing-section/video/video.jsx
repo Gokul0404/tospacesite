@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Vi from "./vii.mp4";
-import '../about/about.css'
+import "../about/about.css";
+import { Link } from "react-router-dom";
 function Video() {
   return (
     <>
@@ -42,7 +43,9 @@ function Video() {
                 >
                   View More
                 </motion.button> */}
-                <button className="ab_btn">View More</button>
+                <Link to="/course">
+                  <button className="ab_btn">View More</button>
+                </Link>
               </div>
             </div>
             <div className="pt-[10%]">
@@ -140,7 +143,10 @@ function Video() {
             >
               View More
             </motion.button> */}
-            <button className="ab_btn">View More</button>
+
+            <Link to="/course">
+              <button className="ab_btn">View More</button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,6 +1,8 @@
+
 export const coursedata = [
   {
     id: 1,
+    img: "./courseimg/course.jpg",
     title: "some text",
     description: "some text",
     duration: "1hour",
@@ -12,6 +14,7 @@ export const coursedata = [
   },
   {
     id: 2,
+    img: "./courseimg/course.jpg",
     title: "some text",
     description: "some text",
     duration: "1hour",
@@ -23,6 +26,7 @@ export const coursedata = [
   },
   {
     id: 3,
+    img: "./courseimg/course.jpg",
     title: "some text",
     description: "some text",
     duration: "1hour",
@@ -34,6 +38,7 @@ export const coursedata = [
   },
   {
     id: 4,
+    img: "./courseimg/course.jpg",
     title: "some text",
     description: "some text",
     duration: "1hour",
@@ -45,6 +50,7 @@ export const coursedata = [
   },
   {
     id: 5,
+    img: "./courseimg/course.jpg",
     title: "some text",
     description: "some text",
     duration: "1hour",

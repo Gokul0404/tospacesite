@@ -6,6 +6,7 @@ import PlaceIcon from "@mui/icons-material/Place";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailOutlineRoundedIcon from "@mui/icons-material/MailOutlineRounded";
 import LanguageRoundedIcon from "@mui/icons-material/LanguageRounded";
+import { Twitter } from '@mui/icons-material';
 export default function Footer() {
   return (
     <div className="w-screen footerbg  text-black justify-center flex items-center ">
@@ -18,14 +19,18 @@ export default function Footer() {
             edit your website design, manage social media
           </div>
           <div className="justify-between flex w-[120px]">
-            <span className="hover:text-pink-700">
+            <span className="hover:text-in">
               <InstagramIcon />
             </span>
-            <span className="hover:text-blue-500">
+            <span className="hover:text-fa">
               <FacebookIcon />
             </span>
-            <span className="hover:text-blue-900">
+            <span className="hover:text-lin">
               <LinkedInIcon />
+            </span>
+            <span className='hover:text-twi'>
+              
+              <Twitter/>
             </span>
           </div>
         </div>

@@ -9,7 +9,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, FreeMode, Autoplay } from "swiper";
-import Founders from "./founders.js"
+import Founders from "./founders.js";
 
 function Viewabout() {
   return (
@@ -96,9 +96,11 @@ function Viewabout() {
         <div className="header text-para mt-8">
           <h1>OUR EXPERTS</h1>
         </div>
-        <div className="laptop:visible mobile-sm:hidden">
 
-        <Swiper
+{/* our experts */}
+
+        <div>
+          <Swiper
             onSlideChange={() => console.log("changed")}
             onSwiper={(swiper) => console.log(swiper)}
             slidesPerView={1}
@@ -106,7 +108,6 @@ function Viewabout() {
             freeMode={false}
             centeredSlides={true}
             loop={true}
-            
             autoplay={{
               pauseOnMouseEnter: true,
               delay: 2500,
@@ -118,51 +119,37 @@ function Viewabout() {
             modules={[FreeMode, Pagination, Autoplay]}
             className="m "
           >
-        
-        
-            {Founders.map((founder)=>(
+            {Founders.map((founder) => {
+              return (
                 <SwiperSlide>
-                <div className="flex  justify-around items-center cards p-5 ">
-                <div className=" ">
-                  <img src={founder.image} alt="no" className="w-[40vh] p-2 rounded-3xl" />
-                  <div className="header text-para text-center uppercase ">
-                    <h1>{founder.name}</h1>
-                  </div>
-                </div>
-    
-                <div className="w-[80vh] text-justify">
-                  <h5 className="text-[20px]">
-                    {founder.description}
-                  </h5>
-                  <div className="social flex mt-5 gap-x-[5vh] justify-center ">
-                    <div >
-                      {founder.facebook}
+                  <div className="flex  justify-around items-center cards p-5 ">
+                    <div className=" ">
+                      <img
+                        src={founder.image}
+                        alt="no"
+                        className="w-[40vh] p-2 rounded-2xl"
+                      />
+                      <div className="header text-para text-center uppercase ">
+                        <h1>{founder.name}</h1>
+                      </div>
                     </div>
-                    <div>
-                      {founder.Instagram}
-                    </div>
-                    <div>
-                      {founder.twitter}
-                    </div>
-                    <div>
-                      {founder.LinkedIn}
+
+                    <div className="w-[80vh] text-justify">
+                      <h5 className="text-[20px]">{founder.description}</h5>
+                      <div className="social flex mt-5 gap-x-[5vh] justify-center ">
+                        <div className="hover:text-fa">{founder.facebook}</div>
+                        <div className="hover:text-in">{founder.Instagram}</div>
+                        <div className="hover:text-twi">{founder.twitter}</div>
+                        <div className="hover:text-lin">{founder.LinkedIn}</div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="designation text-center text-[30px] mt-5  m-auto w-[100vh]">
-                <h2>{founder.desgination}</h2>
-              </div>
-    
+                  <div className="designation text-center text-[30px] mt-5  m-auto w-[100vh]">
+                    <h2>{founder.desgination}</h2>
+                  </div>
                 </SwiperSlide>
-
-            )
-
-            )}
-            
-
-          
-   
+              );
+            })}
           </Swiper>
         </div>
       </div>

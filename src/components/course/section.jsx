@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../course/Section.css";
-import drop from '../course/images/drop.png'
+import "../landing-section/about/about.css";
+
 import { coursedata } from "../course/SectionData";
 export default function Course() {
   const [dragStatus, setdragStatus] = useState(false);
   const [dragData, setDragData] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div>
+    <div id="course">
       <div className="bg-black w-screen  pt-[13vh] ">
         <div
           className="w-screen bg-gray-400 py-6 course_bg_img"
@@ -25,9 +29,10 @@ export default function Course() {
                     <source src={dragData} />
                   </video>
                 ) : (
+           
                   <img
-                    className="object-cover w-full h-full border-[8px] border-black "
-                    src={drop}
+                    className="w-[100%] h-[100%] border-[5px] border-black rounded-[20px]"
+                    src="./courseimg/intro.gif"
                   />
                 )}
               </div>
@@ -35,9 +40,9 @@ export default function Course() {
 
             {/* tool */}
             <div className="w-[10vw] h-[80vh] relative flex justify-center items-center">
-              <div className="w-[100%]  flex justify-center flex-col items-center gap-5 text-center">
+              <div className="w-[100%]  flex justify-center flex-col items-center gap-5 text-center text-white">
                 <div
-                  className="w-[70px] h-[65px]  bg-gray-600 rounded-md"
+                  className="w-[70px] h-[65px]  bg-gray-600 tools rounded-md"
                   draggable="true"
                   onDragStart={() => {
                     setdragStatus(false);
@@ -49,19 +54,17 @@ export default function Course() {
                   first
                 </div>
                 <div
-                  className="w-[70px] h-[65px] bg-gray-600 rounded-md"
+                  className="w-[70px] h-[65px] bg-gray-600 rounded-md tools"
                   draggable="true"
                   onDragStart={() => {
                     setdragStatus(false);
-                    setDragData(
-                      "./v2.mp4"
-                    );
+                    setDragData("./v2.mp4");
                   }}
                 >
                   second
                 </div>
                 <div
-                  className="w-[70px] h-[65px] bg-gray-600  rounded-md"
+                  className="w-[70px] h-[65px] bg-gray-600  rounded-md tools"
                   draggable="true"
                   onDragStart={() => {
                     setdragStatus(false);
@@ -71,7 +74,7 @@ export default function Course() {
                   third
                 </div>
                 <div
-                  className="w-[70px] h-[65px] bg-gray-600 rounded-md"
+                  className="w-[70px] h-[65px] bg-gray-600 rounded-md tools"
                   draggable="true"
                   onDragStart={() => {
                     setdragStatus(false);
@@ -81,7 +84,7 @@ export default function Course() {
                   fourth
                 </div>
                 <div
-                  className="w-[70px] h-[65px]  bg-gray-600 rounded-md"
+                  className="w-[70px] h-[65px]  bg-gray-600 rounded-md tools"
                   draggable="true"
                   onDragStart={() => {
                     setdragStatus(false);
@@ -110,9 +113,15 @@ export default function Course() {
                 <>
                   <div className="laptop:basis-1/4 py-10 px-10">
                     <div
-                      className={`bg-white  mobile-sm:w-[80vw] mobile-sm:h-[70vh] mobile-md:w-[60vw] mobile-md:h-[75vh] tablet:w-[40vw] laptop:w-[20vw] laptop:h-[65vh] rounded-2xl flex items-center flex-col`}
+                      className={`bg-white  mobile-sm:w-[80vw]  mobile-md:w-[70vw]  tablet:w-[40vw] laptop:w-[23vw]  rounded-2xl flex items-center flex-col`}
                     >
-                      <div className="bg-gray-400 w-[90%] mobile-sm:h-[30vh]  laptop:h-[20vh] mt-4 rounded-2xl"></div>
+                      <div className="bg-gray-400 w-[90%] mobile-sm:h-[30vh] mobile-md:w-[50vw] tablet:w-[35vw] laptop:w-[20vw] laptop:h-[22vh] mt-4 rounded-2xl overflow-hidden border-[2px] border-black">
+                        <img
+                          src={`${res.img}`}
+                          alt="no"
+                          className="bg-cover h-full w-full "
+                        />
+                      </div>
                       <div className="text-mes self-start pl-5 pt-3 gap-y-2 flex flex-col">
                         <div className="flex">
                           <p className="minih">COURSE TITLE:</p>
@@ -146,6 +155,9 @@ export default function Course() {
                           <p className="minih">COURSE FEE:</p>
                           <p>{res.fee}</p>
                         </div>
+                      </div>
+                      <div className="py-5">
+                        <button className="ab_btn">View More</button>
                       </div>
                     </div>
                   </div>

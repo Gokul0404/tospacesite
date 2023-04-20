@@ -61,7 +61,18 @@ body {
 
 
 .course_bg_img{
-  background-image:url('../src/components/course/images/course.png') ;
+  /* background-image:url('../public/courseimg/course.png') ; */
+
+
+    background-image: linear-gradient(
+      -45deg,
+      rgba(4, 1, 38, 0.713),
+      rgba(2, 3, 69, 0.895)
+    ),
+url('../public/courseimg/course.png') ;
+
+ 
+
     background-size: cover;
      
 }
