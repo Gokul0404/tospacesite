@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Video() {
   return (
     <>
-      <div className="video_part_section videobg  text-white ">
+      <div className="video_part_section videobg  parafont ">
         <div className="video-side  ">
           <div className="vide0_session grid grid-cols-2 gap-4 w-[100%] py-10">
             <div className="content-side  laptop:mx-[20vh] videobg z-10 laptop:p-5 w-[85%] text-justify">
@@ -36,7 +36,7 @@ function Video() {
 
               <div className="explore_btn font-Azonix laptop-lg:mt-[4vh] mobile-sm:text-center laptop:text-justify laptop:mt-5">
                 {/* <motion.button
-                  className="bg-[#333333] text-white laptop:w-[30%] h-[4vh] mobile-sm:w-[15vh] 4k:text-4k desktop:text-desk mobile-sm:text-mob  rounded border-none   "
+                  className="bg-[#333333] parafont laptop:w-[30%] h-[4vh] mobile-sm:w-[15vh] 4k:text-4k desktop:text-desk mobile-sm:text-mob  rounded border-none   "
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ ease: "easeOut", duration: 3 }}
@@ -78,7 +78,7 @@ function Video() {
                 </a>
                 <div class="p-5">
                   <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:parafont">
                       Noteworthy technology acquisitions 2021
                     </h5>
                   </a>
@@ -99,7 +99,7 @@ function Video() {
                 </a>
                 <div class="p-5">
                   <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:parafont">
                       Noteworthy technology acquisitions 2021
                     </h5>
                   </a>
@@ -121,7 +121,7 @@ function Video() {
                 </a>
                 <div class="p-5">
                   <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:parafont">
                       Noteworthy technology acquisitions 2021
                     </h5>
                   </a>
@@ -136,7 +136,7 @@ function Video() {
 
           <div className="explore_btn font-Azonix laptop-lg:mt-[5vh] text-center laptop:mt-4 mt-2">
             {/* <motion.button
-              className="bg-[#54406F] text-white laptop:w-[12%] h-[4vh] mobile-sm:w-[15vh] 4k:text-4k desktop:text-desk mobile-sm:text-mob  rounded border-none   "
+              className="bg-[#54406F] parafont laptop:w-[12%] h-[4vh] mobile-sm:w-[15vh] 4k:text-4k desktop:text-desk mobile-sm:text-mob  rounded border-none   "
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ ease: "easeOut", duration: 3 }}

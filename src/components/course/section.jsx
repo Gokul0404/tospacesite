@@ -5,10 +5,11 @@ import "../landing-section/about/about.css";
 import { coursedata } from "../course/SectionData";
 export default function Course() {
   const [dragStatus, setdragStatus] = useState(false);
-  const [dragData, setDragData] = useState(false);
+  const [dragData, setDragData] = useState("");
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  console.log(dragData.split("."));
   return (
     <div id="course">
       <div className="bg-black w-screen  pt-[13vh] ">
@@ -25,14 +26,20 @@ export default function Course() {
                 onDragEnter={(e) => setdragStatus(true)}
               >
                 {dragStatus ? (
-                  <video autoPlay muted loop className=" object-cover">
+                  <video
+                    draggable="false"
+                    autoPlay
+                    muted
+                    loop
+                    className=" object-cover"
+                  >
                     <source src={dragData} />
                   </video>
                 ) : (
-           
                   <img
                     className="w-[100%] h-[100%] border-[5px] border-black rounded-[20px]"
                     src="./courseimg/intro.gif"
+                    draggable="false"
                   />
                 )}
               </div>

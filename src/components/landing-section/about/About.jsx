@@ -27,7 +27,7 @@ function About() {
   //   }, [currentState]);
 
   return (
-    <div className="aboutbg  py-20 text-white relative">
+    <div className="aboutbg  py-20  relative">
       <div className="about_content  flex justify-around items-center laptop:flex-row-reverse mobile-sm:flex-col desktop-lg:pt-[1%] desktop:flex-row-reverse  laptop:pt-[5%] mobile-sm:px-3 ">
         <div className="description mobile-sm:order-last laptop:order-first  ">
           <motion.h1 className="laptop:text-heading pb-[10vh] fontbold text-fblue laptop:text-justify mobile-sm:text-center">
@@ -35,7 +35,7 @@ function About() {
           </motion.h1>
 
           <motion.p
-            className="mobile-sm:w-[90vw] laptop-lg:w-[90vh] laptop:text-paragraph text-justify laptop:w-[50vw]"
+            className="mobile-sm:w-[90vw] laptop-lg:w-[90vh] laptop:text-paragraph text-justify laptop:w-[50vw] parafont"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 5 }}
